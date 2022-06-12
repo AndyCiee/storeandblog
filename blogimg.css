@@ -1,0 +1,6 @@
+img{
+    max-height: 150px;
+    min-width: 175px;
+    object-fit: cover;
+    vertical-align: bottom;
+}

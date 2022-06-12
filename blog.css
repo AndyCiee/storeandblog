@@ -1,0 +1,48 @@
+@import url(blogimg.css);
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background: #f1f1f1;
+}
+.header {
+    text-align: center;
+    padding: 60px;
+    text-align: center;
+    background: aquamarine;
+    color: thistle;
+    font-size: x-large;
+}
+/* div#blog{
+    background-color:rgb(108, 201, 201);
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+div#leftcolum{
+    float: left;
+    position: relative;
+    width: 100px;
+    margin: 0 0.5em 20em 0.5em;
+    padding: 1.0 em;
+    background-color: beige;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+} */
+
+row{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    background-color: azure;
+    color: aliceblue;
+}
+.topnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
