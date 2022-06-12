@@ -1,0 +1,15 @@
+.sidebar{
+    max-height: 100px;
+    max-width: 75px;
+    padding-bottom: 20px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+section#sidebar{
+    width: 238px;
+    float: right;
+    position: relative;
+    background-color: aquamarine;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+}

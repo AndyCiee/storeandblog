@@ -1,0 +1,22 @@
+header{
+    padding: 60px;
+    text-align: center;
+    background: aquamarine;
+    color: thistle;
+    font-size: x-large;
+}
+.topnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.search{
+    float: right;
+    border:1px solid grey;
+    border-radius: 5px;
+    height: 20px;
+    width: 20%;
+}
