@@ -1,0 +1,47 @@
+@import url(sidebar.css);
+@import url(navbar.css);
+@import url(footer.css);
+ul{
+    list-style-type:none;
+}
+div.clear{
+    clear:both;
+    font-size: 1%;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    height: 40vh;
+    flex-grow: 1;
+}
+
+img{
+    max-height: 150px;
+    min-width: 175px;
+    object-fit: cover;
+    vertical-align: bottom;
+
+}
+section#main{
+    background-color:azure;
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+
+section div.panel{
+    float: right;
+    position: relative;
+    width: 280px;
+    margin: 0 0.5em 20em 0.5em;
+    padding: 1.0 em;
+    background-color: beige;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
